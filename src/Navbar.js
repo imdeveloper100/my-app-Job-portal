@@ -57,6 +57,11 @@ const ResponsiveAppBar = () => {
               textDecoration: 'none',
             }}
           >
+
+            <Typography>
+              <Box></Box>
+            </Typography>
+              
             Job
           </Typography>
           <Typography

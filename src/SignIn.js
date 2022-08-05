@@ -53,8 +53,8 @@ export default function SignIn() {
           <Avatar sx={{ m: 1, bgcolor: 'secondary.main' }} >
             <LockOutlinedIcon />
           </Avatar>
-          <Typography component="h1" variant="h3" sx={{width:'200%'}}>
-              Create a Free Account
+          <Typography component="h1" variant="h3" sx={{textAlign:'center'}}>
+              Create Account
             </Typography>
           <Box component="form" onSubmit={handleSubmit} noValidate sx={{ mt: 1 }}>
             <TextField
